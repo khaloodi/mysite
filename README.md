@@ -3,7 +3,7 @@
 
 <br/>
 
-## Steps To Apply Migrations (e.g. creating tables) 
+## Steps To Apply Migrations -e.g. creating tables (3):
     python3 manage.py migrate
 
 ### 1. Tell Django you have made changes to DB model
