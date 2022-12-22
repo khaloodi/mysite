@@ -1,3 +1,14 @@
+# Django Gallery App
+
+## Motivation
+The purpose of this project is to generate foundational code for creating and populating databases using Django framework, as well as utilizing the admin panel and documenting command line instructions.
+
+
+**Built With**
+- [Django](https://www.djangoproject.com/)
+
+<hr/>
+
 ## Run application
     python3 manage.py runserver
 
