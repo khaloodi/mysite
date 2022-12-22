@@ -36,4 +36,6 @@
 ![](last_step.png)
 
 
-
+Features:
+- [x] Administration panel
+- [ ] Front End
