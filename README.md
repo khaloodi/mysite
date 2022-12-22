@@ -10,20 +10,20 @@
     python3 manage.py makemigrations <app name>
     python3 manage.py makemigrations food
 
-### Output >>
+### >>
 ![](0001.png)
 
 ### 2. Create the actual table referenced above
     python3 manage.py sqlmigrate food 0001 
     # notice the 0001 was provided by django
 
-### Output >>    
+### >>    
 ![](successful_table_creation.png)
 
 ### 3. Apply migrations
     python3 manage.py migrate
 
-### Output >>
+### >>
 ![](last_step.png)
 
 
