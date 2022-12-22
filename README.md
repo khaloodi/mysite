@@ -3,6 +3,9 @@
 
 <br/>
 
+## Create Super User for Admin Panel:
+    python3 manage.py createsuperuser    
+
 ## Interacting with database shell
     python3 manage.py shell
     from food.models import Item <-- import our db model
