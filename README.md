@@ -3,6 +3,13 @@
 
 <br/>
 
+## Interacting with database shell
+    python3 manage.py shell
+    from food.models import Item <-- import our db model
+    Item.objects.all() <-- list all items stored in item table
+    a = Item(item_name="Pizza", item_desc="Cheesy Pizza", item_price=20) <-- create an item object
+    a.save() <-- store object in DB
+
 ## Steps To Apply Migrations -e.g. creating tables (3):
     python3 manage.py migrate
 
