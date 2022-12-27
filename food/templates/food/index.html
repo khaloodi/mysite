@@ -7,6 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>Hello World!</h1> 
+    {% for item in item_list %}
+    <ul>
+        <li>
+            {{ item.id }} -> {{ item.item_name }}
+        </li>
+    </ul>
+    {% endfor %}
 </body>
 </html>
+
+<!-- 
+{% for item in item_list %}
+    <ul>
+        <li>
+            {{ item.id }} -> {{ item.item_name }}
+        </li>
+    </ul>
+{% endfor %} -->
